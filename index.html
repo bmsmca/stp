@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<title>Experiment 3</title>
+</head>
+<body>
+
+		<div class="header clearfix">
+			<nav>
+			  <ul >
+			    <li ><a href="#/students"><span > </span> Student List</a></li>
+			    <li ><a href="#/students/create"> 
+			    <span > </span>	Add New Student</a></li>
+			  </ul>
+			</nav>
+
+			<h3 >Student Information System</h3>
+		</div>
+		<div ng-view></div>
+
+
+<script src="angular-1.5.8/angular.min.js"></script>
+<script src="angular-1.5.8/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="controllers/controllers.js"></script>
+
+</body>
+</html>
